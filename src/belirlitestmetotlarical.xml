@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="method">
+    <test name="otel">
+        <classes>
+            <class name="tests.day18.C02_WebTables">
+                <methods>
+                    <exclude name="printRows"></exclude>
+                </methods>
+            </class>
+            <class name="tests.day17.C02_PropertiesIlkClass">
+                <methods>
+                    <include name="propertiesLoginTesti"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
